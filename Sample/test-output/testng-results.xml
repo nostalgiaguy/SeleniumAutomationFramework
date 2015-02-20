@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7278" started-at="2014-12-24T07:13:33Z" finished-at="2014-12-24T07:13:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7278" started-at="2014-12-24T07:13:33Z" finished-at="2014-12-24T07:13:40Z">
+      <class name="com.erevmax.recuurenceReportTests.SchedulerTest">
+        <test-method status="PASS" signature="RT_MR_SCHEDULE_Test()[pri:0, instance:com.erevmax.recuurenceReportTests.SchedulerTest@5870501]" name="RT_MR_SCHEDULE_Test" duration-ms="1786" started-at="2014-12-24T12:43:33Z" description="Checking hotel scheduler status in RT_MR_SCHEDULE table." finished-at="2014-12-24T12:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RT_MR_SCHEDULE_Test -->
+        <test-method status="PASS" signature="RT_MR_SCHEDULE_RECURRENCE_Test()[pri:0, instance:com.erevmax.recuurenceReportTests.SchedulerTest@5870501]" name="RT_MR_SCHEDULE_RECURRENCE_Test" duration-ms="2005" started-at="2014-12-24T12:43:35Z" description="Checking hotel scheduler status in RT_MR_SCHEDULE_RECURRENCE table." finished-at="2014-12-24T12:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RT_MR_SCHEDULE_RECURRENCE_Test -->
+        <test-method status="FAIL" signature="RT_MR_SHOPPING_COMBINATION_Test()[pri:0, instance:com.erevmax.recuurenceReportTests.SchedulerTest@5870501]" name="RT_MR_SHOPPING_COMBINATION_Test" duration-ms="3461" started-at="2014-12-24T12:43:37Z" description="Checking hotel scheduler status in RT_MR_SHOPPING_COMBINATION table." finished-at="2014-12-24T12:43:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [14683] but found [14659]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [14683] but found [14659]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.erevmax.utils.Verify.assertEquals(Verify.java:39)
+	at com.erevmax.recuurenceReportTests.SchedulerTest.RT_MR_SHOPPING_COMBINATION_Test(SchedulerTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RT_MR_SHOPPING_COMBINATION_Test -->
+      </class> <!-- com.erevmax.recuurenceReportTests.SchedulerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

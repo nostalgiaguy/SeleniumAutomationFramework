@@ -1,0 +1,34 @@
+<suite name="Suite1" verbose="1" >
+<listeners>
+<listener class-name="com.erevmax.utils.CustomTestListener"></listener>
+</listeners>
+<!-- <groups>
+    <run>
+      <exclude name="P1"  />
+      <include name="P2,P1"/>
+    </run>
+  </groups> -->
+  <parameter name="url" value="http://rediffmail.com"/>  
+  <test name="Demo Test" >
+    <classes>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC01_Dashboard" />
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC02_SearchHotelpage"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC03_HotelAddress"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC04_SubscriptionDetail"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC05_ProductDetail"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC06_ContactDetail"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC08_Preferences_Shopper"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC09_Preferences_DailyRateAlert"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC10_Preferences_RTReview"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC11_Preferences_RTConnect"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC12_Preferences_Reservation"/>
+       <class name="com.erevmax.selenium.RTAdmin.Test_TC16_Hotelsites"/> 
+    </classes>
+  </test>
+   <!-- <test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test> -->
+</suite>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="url" value="http://rediffmail.com"/>
+  <listeners>
+    <listener class-name="com.erevmax.utils.CustomTestListener"/>
+  </listeners>
+  <test name="Demo Test(failed)">
+    <classes>
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC02_SearchHotelpage">
+        <methods>
+          <include name="setup"/>
+          <include name="cityajaxtest"/>
+          <include name="continue_clienthotelconfig_test"/>
+          <include name="countryajaxtest"/>
+          <include name="AddNewHoteltest"/>
+          <include name="teardown"/>
+          <include name="launchBrowser"/>
+          <include name="requiredFieldMsgtest"/>
+          <include name="hotelnameajaxtest"/>
+          <include name="AddNewCitytest"/>
+          <include name="AddNewCountrytest"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC02_SearchHotelpage -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC09_Preferences_DailyRateAlert">
+        <methods>
+          <include name="DailyRateAlertPrefVal4"/>
+          <include name="DailyRateAlertPrefSave1" invocation-numbers="0 1"/>
+          <include name="DailyRateAlertPrefVal2"/>
+          <include name="DailyRateAlertPrefVal3"/>
+          <include name="DailyRateAlertPrefVal1"/>
+          <include name="navigateConfigDetailActionPage"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC09_Preferences_DailyRateAlert -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC06_ContactDetail">
+        <methods>
+          <include name="navigateConfigDetailActionPage"/>
+          <include name="SaveContactandMemberDetail1_Test" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC06_ContactDetail -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC16_Hotelsites">
+        <methods>
+          <include name="navigateConfigDetailActionPage"/>
+          <include name="HotelSiteViewTest"/>
+          <include name="ShoppingPrefSaveTest"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC16_Hotelsites -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC03_HotelAddress">
+        <methods>
+          <include name="HotelAddressSave1" invocation-numbers="0 1"/>
+          <include name="HotelRoomCountMandatoryTest" invocation-numbers="0"/>
+          <include name="navigateConfigDetailActionPage"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC03_HotelAddress -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC12_Preferences_Reservation">
+        <methods>
+          <include name="ReservationPrefSave1" invocation-numbers="0 1 2"/>
+          <include name="CCValidationError"/>
+          <include name="navigateConfigDetailActionPage"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC12_Preferences_Reservation -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC08_Preferences_Shopper">
+        <methods>
+          <include name="navigateConfigDetailActionPage"/>
+          <include name="ShopperPrefSave1" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC08_Preferences_Shopper -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC05_ProductDetail">
+        <methods>
+          <include name="ProductDetailsSave1" invocation-numbers="0 1"/>
+          <include name="navigateConfigDetailActionPage"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC05_ProductDetail -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC04_SubscriptionDetail">
+        <methods>
+          <include name="SubscriptionDetailsSave1" invocation-numbers="0 1"/>
+          <include name="navigateConfigDetailActionPage"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC04_SubscriptionDetail -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC10_Preferences_RTReview">
+        <methods>
+          <include name="navigateConfigDetailActionPage"/>
+          <include name="RTReviewPrefSave1" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC10_Preferences_RTReview -->
+      <class name="com.erevmax.selenium.RTAdmin.Test_TC11_Preferences_RTConnect">
+        <methods>
+          <include name="RTConnectPrefSave1" invocation-numbers="0 1"/>
+          <include name="ContextualHelp"/>
+          <include name="navigateConfigDetailActionPage"/>
+          <include name="PMSDBatChannelLevelRadioBtnStateTest"/>
+        </methods>
+      </class> <!-- com.erevmax.selenium.RTAdmin.Test_TC11_Preferences_RTConnect -->
+    </classes>
+  </test> <!-- Demo Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
